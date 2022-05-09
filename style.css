@@ -1,0 +1,13 @@
+.level-container ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.level-container ul li{
+    flex: 1 1 0;
+}
+.level-container ul li:nth-child(1){
+    flex: 3 1 0;
+}
+
