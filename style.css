@@ -5,9 +5,17 @@
 }
 
 .level-container ul li{
+    list-style-type: none;
     flex: 1 1 0;
+    border: solid black 1px;
+    text-align: right;
 }
 .level-container ul li:nth-child(1){
     flex: 3 1 0;
+    text-align: center;
+    border:none;
 }
 
+/*
+    flex-grow flex-shrink flex-basis 의 이해도 높이자
+*/
