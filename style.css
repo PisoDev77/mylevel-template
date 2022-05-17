@@ -1,13 +1,38 @@
-#level-container{
-    display: flex;
+#my-level{
+    flex-flow: column wrap;
 }
 
-#level-container .represent{
+#my-level section{
+    display: flex;
+}
+#my-level section .represent{
     flex-grow: 1;
+    flex-basis: 0;
     background-color: red;
 }
-#level-container .steps{
+#my-level section .steps{
     flex-grow: 5;
+    flex-basis: 0;
+
+    display: flex;
+    justify-content: space-around;
+
+    background-color: blue;
+}
+
+.level-container{
+    display: flex;
+    width: 100%;
+}
+
+.level-container .represent{
+    flex-grow: 1;
+    background-color: red;
+    flex-basis: 0;
+}
+.level-container .steps{
+    flex-grow: 5;
+    flex-basis: 0;
 
     display: flex;
     justify-content: space-around;
